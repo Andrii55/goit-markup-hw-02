@@ -1,0 +1,151 @@
+:root{
+--main-font: 'roboto-regular', 'roboto-bold', 'roboto-medium', 'roboto-black', 'relewey-bold', sans-serif;
+}
+
+body{
+    font-family: var(--main-font)
+}
+
+/* --------------UNIVERSAL CLASSES------------ */
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+.btn {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.btn:hover,
+.btn:focus {
+    background-color: #2196F3;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.title{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.items{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* --------------HEADER------------ */
+
+.header-logo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #000000;
+        }
+        
+        .header-logo > span {
+        color: #2196F3;
+        }
+
+        .header-link {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.02em;
+            color: #212121;
+        }
+        
+        .header-link:hover,
+        .header-link:focus {
+            color: #2196F3;
+        }
+        
+        .header-contacts {
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: #757575;
+        }
+        
+        .header-contacts:hover,
+        .header-contacts:focus{
+            color: #2196F3
+        }
+
+/* --------------OUR-WORKS------------ */
+
+
+
+
+
+
+
+
+/* --------------PORTFOLIO------------ */
+
+
+
+
+
+/* --------------FOOTER------------ */
+
+
+.footer{
+    background-color: #757575;
+}
+
+.footer-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-logo > span {
+color: #2196F3;
+}
+
+ .footer-item {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .address-contact {
+        color: #FFFFFF;
+        }
+    
