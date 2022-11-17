@@ -4,6 +4,7 @@
 body{
     font-family: 'roboto-regular', 'roboto-bold', 'roboto-medium', 'roboto-black', 'relewey-bold', sans-serif;
     color: #212121;
+    background-color: #FFFFFF;
 }
 
 
@@ -60,6 +61,7 @@ color: #757575;
 
 /* --------------HEADER------------ */
 
+
 .header-logo {
         font-family: 'Raleway';
         font-style: normal;
@@ -103,9 +105,7 @@ color: #757575;
 
 
 
-
 /* --------------PORTFOLIO------------ */
-
 
 
 
@@ -114,7 +114,7 @@ color: #757575;
 
 
 .footer{
-    background-color: #757575;
+    background-color: #2F303A;
 }
 .footer-logo {
 font-family: 'Raleway';
