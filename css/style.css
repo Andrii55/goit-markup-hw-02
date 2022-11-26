@@ -208,9 +208,7 @@ color: #757575;
     margin-right: 27px;
 }
 
-.portfolio-list:nth-child(-n + 6){
-    margin-bottom: 30px;
-}
+
 
 .portfolio-name > img {
     margin-bottom: 20px;
