@@ -213,18 +213,22 @@ color: #757575;
 
 
 
-.portfolio-name > img {
+/* .portfolio-name > img {
     margin-bottom: 20px;
-}
+} */
 
 .portfolio-name{
     background-color: #FFFFFF;
+    
+}
+
+.portfolio-name > .border
+{
+    padding-top: 20px;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
 }
-
-
 
 
 
