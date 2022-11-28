@@ -1,5 +1,7 @@
 
-
+:root{
+    --accent-color: #2196F3;
+}
 
 body{
     font-family: 'roboto-regular', 'roboto-bold', 'roboto-medium', 'roboto-black', 'relewey-bold', sans-serif;
@@ -125,7 +127,11 @@ color: #757575;
             margin-right: 50px;
         }
         
-       
+        .header-link:hover,
+        .header-link:focus,
+        .header-link:active{
+            color: var(--accent-color);
+        }
 
         .header-link {
             display: block;
@@ -143,10 +149,7 @@ color: #757575;
 
        
         
-        .header-link:hover,
-        .header-link:focus{
-            color: #2196F3;
-        }
+       
        
         
         .header-contact{
