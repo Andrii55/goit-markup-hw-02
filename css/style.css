@@ -133,6 +133,10 @@ color: #757575;
             color: var(--accent-color);
         }
 
+        .active:visited{
+            color: var(--accent-color);
+        }
+
         .header-link {
             display: block;
             padding-top: 30px;
