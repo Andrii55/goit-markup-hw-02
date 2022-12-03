@@ -150,17 +150,15 @@ color: #757575;
             letter-spacing: 0.02em;
             color: #212121;
         }
-
-       
-        
-       
-       
-        
+ 
         .header-contact{
             margin-left: auto;
             display: flex;
         }
+
         .header-contacts {
+            display: flex;
+            align-items: center;
         padding-top: 30px;
         padding-bottom: 30px;
 
@@ -177,6 +175,25 @@ color: #757575;
         .header-contacts:hover,
         .header-contacts:focus{
             color: #2196F3
+        }
+
+        .icon-envelope{
+  
+            margin-right: 10px;
+            fill: currentColor;
+        }
+        .icon-envelope:hover,
+        .icon-envelope:focus{
+            fill: currentColor;
+        }
+        
+        .icon-smartphone{
+            margin-right: 10px;
+            fill: currentColor;
+        }
+        .icon-smartphone:hover,
+        .icon-smartphone:focus{
+            fill: currentColor;
         }
 
 /* --------------OUR-WORKS------------ */
@@ -217,11 +234,6 @@ color: #757575;
     margin-right: 27px;
 }
 
-
-
-/* .portfolio-name > img {
-    margin-bottom: 20px;
-} */
 
 .portfolio-name{
     background-color: #FFFFFF;
@@ -271,6 +283,15 @@ color: #757575;
     padding-bottom: 60px;
 }
 
+.address{
+    display: flex;
+    align-items: baseline;
+}
+
+.address-list{
+    margin-right: 70px;
+}
+
 .footer-logo {
 display: block;
 margin-bottom: 30px;
@@ -304,4 +325,54 @@ color: #2196F3;
 
 .address-contact {
         color: #FFFFFF;
+        }
+        .footer-soc{
+            display: flex;
+            max-width: 206px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-title{
+        min-width: 206px;
+        margin-bottom: 20px;
+        
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+        }
+        
+        
+        .footer-soc-items{
+        
+        text-align: center;
+            width: 44px;
+            height: 44px;
+            
+        }
+        
+        .footer-soc-items:not(:last-child){
+            margin-right: 10px;
+        }
+        
+        .footer-soc-link {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);;
+            color: #FFFFFF;
+        }
+        
+        .footer-soc-link:hover {
+            background-color: #2196F3;
+            color: #FFFFFF;
+        }
+        .footer-soc-icons {
+            fill: currentColor;
         }
